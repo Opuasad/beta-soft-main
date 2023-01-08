@@ -1,0 +1,182 @@
+body{
+    font-family: 'Secular One', sans-serif ;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6B6A75;
+    text-align: left;
+  }
+
+.logo{
+   font-family: 'Shrikhand', "cursive";
+}
+.nav-link{
+   font-size: 18px !important;
+   color: #000 !important;
+}
+.nav-link:hover{
+   color: rgb(81, 81, 216) !important;
+
+}
+
+.second-page h1{
+   padding: 0px 30px 0px 0px;
+ 
+}
+.text h1{
+   font-size: 45px;
+   padding: 0px 60px 10px 0px ;
+   line-height: 115%;
+
+}
+/* * Courses Start-1 start */ */
+    .second-page h1{
+      padding-right: 55px;
+      
+    }
+    .second-page p{
+      padding: 20px 0px;
+      font-size: 25px;
+      color: gray;
+    }
+  .Courses_Start-1 img{
+    height: 164px;
+    width: 330px;
+    margin-top: 50px;
+  }
+  .Courses_Start-1 p{
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+    font-weight: 800;
+  }
+  
+  .Courses_Start-1 div{
+    height: 290px;
+    width: 360px;
+    background-color: #edf0f3;
+    margin: 15px 10px;
+    border-radius: 10px;
+  }
+  /* Courses Start-1 start */
+  .bag-image{ background: linear-gradient(rgba(40, 120, 235, 0.05), rgba(40, 120, 235, 0.05)), url(img/bg-image.jpg);
+    background-attachment: scroll, scroll;
+  background-attachment: fixed;
+ }
+ .btn-icon{
+    width: 77px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+ }
+ .mt-n1 .my-n1{
+    margin-top: -0.25rem !important;
+    margin-left: 20px;
+ }
+ .mt-n1 h4{
+    font-weight: 600 !important;
+ }
+ .display-4{
+    font-weight: 700;
+ }
+ h1,h2,h3,h4,h5,h6{
+    margin-bottom: 0.5rem;
+   
+    font-weight: 500;
+    line-height: 1.2;
+    color: #120F2D;
+ }
+ .footer{
+    background-color: #00252e;
+    border-top-right-radius: 100px;
+
+ }
+ .cards-wrapper {
+   display: flex;
+   justify-content: center;
+ }
+ .img-wrapper{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+img{
+    max-width: 100%;
+     
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  border: 1px solid rgb(109, 18, 18);
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousal-inner{
+   padding: 1rem;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 230px;
+  border-top-left-radius: 15px ;
+  border-top-right-radius: 15px;
+}
+.card {
+  height: 394px;
+  width: 400px;
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 15px;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.card-title{
+   
+   font-weight: 400px;
+   color: #df6812;
+   line-height: 23px;
+}
+.ic{
+   color:orange;
+}
+.star-icon ul{
+   margin-left: -30px;
+}
+
+ @media screen and (min-width:576px){
+    .carousel-inner{ 
+        display: flex;
+    }
+    .carousel-item{
+       display: block;
+       margin-right: -20px;
+       margin-left: 20px;
+       flex: 0 0 calc(100%/3);
+       justify-content: space-evenly;
+    }
+ }
+
+/* footer start */
+.f-icon{
+   margin-right: 10px;
+   color:rgb(50, 50, 224);
+}
+.btn-success{
+   padding-left: 20px;
+   background-color: rgba(5, 170, 5, 0.76);
+   
+}
+.footer a:hover{
+   color: #fff !important;
+   text-decoration:underline !important;
+}
